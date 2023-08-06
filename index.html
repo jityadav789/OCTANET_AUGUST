@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVIL FITNESS CENTRE</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /*CSS RESET*/
+    body {
+        font-family: 'Comfortaa', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg5.jpg');
+        background-size: cover;
+        background-position: center;
+        
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 15px;
+        top: 0px;
+
+
+
+    }
+
+    .left img {
+        width: 100px;
+    }
+
+    .left div {
+        font-size: 17px;
+        line-height: 10px;
+        text-align: center;
+    }
+
+    .mid {
+        /* border: 2px solid yellow; */
+        display: block;
+        width: 900px;
+        margin: 20px auto;
+
+
+    }
+
+    .right {
+        /* border: 2px solid green; */
+        position: absolute;
+        right: 35px;
+        top: 20px;
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color:white;
+        text-decoration: none;
+        padding: 20px 34px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: blueviolet;
+    }
+
+    .btn {
+        font-family: 'Comfortaa', cursive;
+        margin: 10px 4px;
+        background-color: rgb(221, 155, 155);
+        color: aquamarine;
+        padding: 4px 10px;
+        border: 2px solid grey;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(231, 52, 82);
+    }
+    .container{
+        margin: 50px 45px;
+        /* border: 2px solid white; */
+        padding: 60px;
+        border-radius: 15px;
+    }
+    .formgroup input{
+        font-family: 'Comfortaa', cursive;
+        text-align: center;
+        margin: 11px auto;
+        padding: 1px;
+        border: 2px solid white;
+        border-radius: 8px;
+        font-size: 25px;
+        display: block;
+        width: 508px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        margin: 20px auto;
+        width: 74px;
+
+
+    }
+</style>
+
+<body>
+    <header>
+        <!-- for the logo -->
+
+        <div class="left">
+            <img src="img/logo.png.png" alt="">
+            <div>DEVIL FITNESS</div>
+
+        </div>
+
+        <!-- for the navbar -->
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Training</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+
+        </div>
+        <!-- for the buttons -->
+        <div class="right">
+            <button class="btn">Join Now </button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym in Kolkata</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Name">
+                
+            </div>
+            <div class="formgroup">
+                <input type="number" name="" placeholder="Enter Your Age">
+                
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Gender">
+                
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your locality">
+                
+            </div>
+            <div class="formgroup">
+                <input type="number" name="" placeholder="Enter Your numnber">
+                
+            </div>
+            <button class="btn">Submit</button>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
